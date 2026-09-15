@@ -3,10 +3,22 @@
 int main() {
     
     int n1,n2;
-    printf("Ingrese el primer numero: ");
-    scanf("%d", &n1);
-    printf("Ingrese el segundo numero: ");
-    scanf("%d", &n2);
+   // printf("Ingrese el primer numero: ");
+    //scanf("%d", &n1);
+    /* printf("Ingrese el segundo numero: ");
+    scanf("%d", &n2);*/
+
+do  {
+    printf("\nIngrese el primer numero: ");
+    scanf(" %d",&n1);
+    for (int i = 1; i <= n1; i++)
+    {
+        n1 = n1*i;
+    }
+
+    printf("%d",n1);
+} while (n1>=0);
+
 
 /*
     if(n1>n2){
@@ -27,11 +39,13 @@ int main() {
     
     }
    */
-    
+    /*
     printf("Los numeros entre 1 y %d son: \n",n1);
     for (int i = 1; i <= n1; i++) {
         printf("%d ",i);
         printf("%d\n",-i);
      }
+     */
+
     return 0;
 }
