@@ -9,7 +9,6 @@ int main() {
     scanf("%d", &n2);
 
 /*
-    
     if(n1>n2){
         printf("El primer numero es mayor que el segundo\n");
     }else if(n1<n2){
@@ -18,19 +17,19 @@ int main() {
         printf("Los numeros son iguales\n");
     }
 */
-
+/*
     int n3;
     printf("Ingrese el tercer numero: ");
     scanf("%d", &n3);
     
-    
     if (n3 == n1)
     {
     
-        
     }
+   */
     
+    printf("Los numeros entre 1 y %d son: \n",n1);
+    for (int i = 1; i <= n1; i++) printf("%d ",i);
     
-
     return 0;
 }
