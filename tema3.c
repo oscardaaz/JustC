@@ -29,7 +29,9 @@ int main() {
    */
     
     printf("Los numeros entre 1 y %d son: \n",n1);
-    for (int i = 1; i <= n1; i++) printf("%d ",i);
-    
+    for (int i = 1; i <= n1; i++) {
+        printf("%d ",i);
+        printf("%d\n",-i);
+     }
     return 0;
 }
